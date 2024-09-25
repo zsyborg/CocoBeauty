@@ -74,6 +74,9 @@ Version: 1.0.0
 /*=================================
     CSS Index End
 ==================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 /*=================================
    01. Theme Base
 ==================================*/
@@ -81,7 +84,7 @@ Version: 1.0.0
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --body-bg: #ffffff;
+  --body-bg: #eef3e0;
   --theme-color: #9a563a;
   --body-color: #555555;
   --title-color: #121f38;
@@ -94,8 +97,8 @@ Version: 1.0.0
   --success-color: #28a745;
   --error-color: #dc3545;
   --border-color: #e7e5e5;
-  --title-font: "Marcellus", serif;
-  --body-font: "DM Sans", sans-serif;
+  --title-font: "Cinzel Decorative", serif;
+  --body-font: "Cinzel Decorative", serif;
   --icon-font: "Font Awesome 5 Pro";
   --main-container: 1270px;
   --container-gutters: 30px;
@@ -104,6 +107,7 @@ Version: 1.0.0
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
 }
+
 
 .home-8,
 .home-7,
@@ -127,6 +131,7 @@ body {
   line-height: 28px;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  font-family: "Cinzel Decorative", serif;
 }
 
 iframe {
@@ -2612,6 +2617,13 @@ textarea.is-invalid {
 
 .bg-title {
   background-color: var(--title-color) !important;
+}
+
+.segmentor{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../img/bg/bg-flower-1.jpg');
 }
 
 .background-image,
