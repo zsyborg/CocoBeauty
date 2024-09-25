@@ -17,18 +17,20 @@ const Header = ({ walletToggle, navigationToggle }) => {
                                 <ul>
                                    
                                     <li>
-                                        <a href="/about">About Us</a>
+                                        <Link href="#">About Us</Link>
                                     </li>
                                     
                                     <li>
-                                        <a href="/blog">Blog</a>
+                                        <Link href="#">
+                                            Blog
+                                        </Link>
                                     </li>
                                     <li className="menu-item-has-children">
-                                        <a href="/">Services</a>
+                                        <Link href="/">Services</Link>
                                     </li>
                                   
                                     <li>
-                                        <a href="/contact">Contact Us</a>
+                                        <Link href="/contact">Contact Us</Link>
                                     </li>
                                 </ul>
                             </nav>
@@ -36,13 +38,13 @@ const Header = ({ walletToggle, navigationToggle }) => {
                         </div>
                         <div class="order-0 order-xxl-1 col-auto col-xxl-2 text-center">
                             <div class="header-logo">
-                                <a href="/"><img src="/img/FinalLogo.png" alt="Coconut Beauty Logo" width={161} /></a>
+                                <aLink href="/"><img src="/img/FinalLogo.png" alt="Coconut Beauty Logo" width={161} /></aLink>
                             </div>
                         </div>
                         <div class="order-2 order-xxl-2 col-auto col-xxl-5 d-none d-lg-block">
                             <div class="header-icons">
-                                <a href="#" class="searchBoxTggler"><i class="far fa-search"></i></a>
-                                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+                                <Link href="#" class="searchBoxTggler"><i class="far fa-search"></i></Link>
+                                <Link href="#"><i class="fal fa-shopping-cart"></i></Link>
                                 <button class="bar-btn sideMenuToggler d-none d-xl-inline-block">
                                     <span class="bar"></span>
                                     <span class="bar"></span>
