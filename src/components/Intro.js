@@ -6,7 +6,7 @@ const Intro = () => {
 
         <div className="row flex-row justify-content-center align-items-center min-vh-100">
             
-                <div className="col-6 h-100 align-items-center justify-content-center text-center">
+                <div className="col-12 col-lg-6 col-md-6 col-xl-8 col-xxl-10 h-100 align-items-center justify-content-center text-center">
                   <motion.img                 
                   initial={{scale:0.5, opacity: 0}}
                   animate={{scale:1, opacity: 1}}

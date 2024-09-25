@@ -30,6 +30,7 @@ function MyApp({ Component, pageProps, router }) {
         <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" />
         <link type="text/css" rel="stylesheet" href="/css/fontawesome.min.css" />
         <link type="text/css" rel="stylesheet" href="/css/style.css" />
+        <link type="text/css" rel="stylesheet" href="/css/responsive.css" />
       </Head>
       <motion.div
         key={router.route}
