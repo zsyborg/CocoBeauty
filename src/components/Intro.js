@@ -25,7 +25,7 @@ const Intro = () => {
                     ))}
                   </motion.h1>
 
-                  <motion.h3 className="m-0 p-0">
+                  <motion.h3 className="m-0 p-0 mt-sm-2">
                     {Array.from('Hair, Skin & You').map((char, index) => (
                       <motion.span
                         key={index}
