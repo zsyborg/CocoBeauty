@@ -7,11 +7,11 @@ const Intro = () => {
         <div className="row flex-row justify-content-center align-items-center min-vh-100">
             
                 <div className="col-12 col-lg-6 col-md-6 col-xl-8 col-xxl-10 h-100 align-items-center justify-content-center text-center">
-                  <motion.img                 
+                  {/* <motion.img                 
                   initial={{scale:0.5, opacity: 0}}
                   animate={{scale:1, opacity: 1}}
                   transition={{duration:3, ease:"easeInOut"}}
-                  src="/emblem.png" width={333} />
+                  src="/emblem.png" width={333} /> */}
                   
                   <motion.h1 className="m-0 p-0">
                     {Array.from('Coconut Beauty').map((char, index) => (
@@ -19,7 +19,7 @@ const Intro = () => {
                         key={index}
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 1, delay: 3 + index * 0.3 }}>
+                        transition={{ duration: 1, delay: index * 0.3 }}>
                         {char}
                       </motion.span>
                     ))}
@@ -31,18 +31,18 @@ const Intro = () => {
                         key={index}
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 1, delay: 3 + index * 0.3 }}>
+                        transition={{ duration: 1, delay:0.4 + index * 0.3 }}>
                         {char}
                       </motion.span>
                     ))}
                   </motion.h3>
-                  <motion.h5>
+                  <motion.h5 className="mt-4">
                     {Array.from('Enter Website').map((char, index) => (
                       <motion.span
                       key={index}
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 1, delay: 6 + index * 0.3 }}>
+                      transition={{ duration: 1, delay: 3 + index * 0.3 }}>
                     <Link href="/home">
                         {char}
                     </Link>
